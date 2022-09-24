@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi ipsam, ullam accusamus minima fugiat doloribus ipsum doloremque quisquam perferendis nemo deserunt optio, sed fuga et repudiandae exercitationem nisi quo!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunada página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis possimus, eos error, doloremque ipsa perspiciatis explicabo voluptate porro delectus asperiores et necessitatibus repudiandae consequatur quae ex, praesentium voluptatibus provident!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at quaerat nisi neque. Cumque quae similique nobis, error, vel voluptates dolore rerum rem, nulla nemo quia eius atque velit sequi lorem.</p>
+
+    <iframe id="tela" name="frame" srcdoc="
+
+    <h1>Escolha uma das opções a cima </h1> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quos quidem distinctio iure? Aliquam, aperiam. Vitae possimus eius distinctio blanditiis et reiciendis itaque eligendi pariatur, aperiam perspiciatis minus sed aliquid!lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate dolorem. Quidem ducimus beatae, natus repellat eligendi ex delectus nihil facere ipsam ut non suscipit error dolore totam illo adipisci.</p><img src='https://appcursosdegraca.s3.amazonaws.com/teachers_pt/product_image_teacher_30.jpg' style='width: 550px;'>"
+
+        <p>Infelizmente seu navegador não é compatível com isso.</p></iframe>
+</body>
+</html>
