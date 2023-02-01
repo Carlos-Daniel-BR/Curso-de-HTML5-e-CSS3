@@ -49,7 +49,7 @@ Grandes telas: acima de 1200px
     img#TV{display: none;} 
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 768px) { /*TABLET*/
     body {
         background-image: url(../imagens/back-tablet.jpg);
     }
